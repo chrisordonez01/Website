@@ -45,6 +45,7 @@ ul li.active a{
 	height: auto;
 	border-radius: 50%;
 	padding: 10px;
+	margin-top: 5rem;
 }
 
 .main{
@@ -73,9 +74,9 @@ ul li.active a{
 	text-align: center;
 }
 
-.subtitle h1{
-	color: #fff;
-	font-size: 40px;
+.subtitle h3{
+	color: #f00;
+	font-size: 15px;
 }
 
 .aboutme{
@@ -87,7 +88,7 @@ ul li.active a{
 
 .aboutme h1{
 	color: #fff;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .contactme{
@@ -125,8 +126,8 @@ ul li.active a{
 
 .projectshow{
 	position: absolute;
-	top: 35%;
-	left: 18%;
+	top: 25%;
+	left: 25%;
 	transform: translate(-10%, -10%);
 }
 
@@ -144,7 +145,7 @@ ul li.active a{
 /* Create four equal columns that floats next to each other */
 .column {
 	float: left;
-	width: 30%;
+	width: 43%;
 }
 
 /* Clear floats after rows */ 
@@ -180,8 +181,8 @@ ul li.active a{
 		font-size: 35px;
 	}
 
-	.subtitle h1{
-		font-size: 30px;
+	.subtitle h3{
+		font-size: 15px;
 	}
 
 	.aboutme h1{
@@ -226,8 +227,8 @@ ul li.active a{
 		font-size: 32px;
 	}
 
-	.subtitle h1{
-		font-size: 22px;
+	.subtitle h3{
+		font-size: 15px;
 	}
 
 	.aboutme h1{
@@ -238,8 +239,18 @@ ul li.active a{
 		font-size: 26px;
 	}
 
+	.button{
+		width: 300px;
+		padding-left: 50px;
+	}
+
 	.btn{
 		padding: 5px 15px;
 	}
+	
+	.projectshow {
+		left: 70px
+	}
+
 }
 
